@@ -11,7 +11,7 @@ body {
 .header {
   background-color: #f26b38;
   color: #ffffff;
-  padding: 16px;
+  padding: 16px 48px 16px 48px;
 }
 
 .nav-section {
@@ -25,7 +25,20 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 8px;
+  gap: 16px;
+}
+
+.nav-link > a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-link > a:hover {
+  color: #1b1b1e;
+}
+
+.nav-icon > h2 {
+  color: #1b1b1e;
 }
 
 .hero-section {
