@@ -60,12 +60,15 @@ body {
   margin: 40px 0 40px 0;
   background-color: #1b1b1e;
   color: #ffffff;
-  border: none;
+  border: solid 1px #f26b38;
   border-radius: 16px;
 }
 
 .hero-section > button:hover {
   background-color: #f26b38;
+  transition: background-color 1s, border-color 2s;
+  border: solid 1px magenta;
+  cursor: pointer;
 }
 
 article > h1 > span {
