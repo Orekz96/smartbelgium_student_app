@@ -93,3 +93,15 @@ footer {
   bottom: 0;
   width: 100%;
 }
+
+/* | Role               | Color         | Hex                                                        | Usage                               |
+| ------------------ | ------------- | ---------------------------------------------------------- | ----------------------------------- |
+| **Primary Accent** | Lavender Pink | `#FFD6FF`                                                  | Buttons, badges, feature highlights |
+| **Deep Purple**    | `#5A189A`     | Rich, modern contrast                                      |                                     |
+| **Indigo Blue**    | `#3C096C`     | Headers, text, or background overlays                      |                                     |
+| **Light Lilac**    | `#F3E8FF`     | Section backgrounds                                        |                                     |
+| **Off White**      | `#FFFBFF`     | Main background, cards                                     |                                     |
+| **Charcoal Gray**  | `#2D2D2D`     | Neutral dark text color                                    |                                     |
+| **Electric Pink**  | `#FF4EC0`     | Accent hover effects, icons                                |                                     |
+| **Mint Green**     | `#D0F4DE`     | Fresh complementary tone (for testimonials, footers, CTAs) |                                     |
+ */
