@@ -8,18 +8,13 @@ body {
   color: #1b1b1e;
 }
 
-.header {
-  /* background-color: #f26b38; */
-  background-color: #e0aaff;
+.navbar {
+  background-color: #3c096c;
+}
+
+.navbar-nav .nav-link {
   color: #ffffff;
-  padding: 16px 48px 16px 48px;
 }
-
-.dropdown:hover .dropdown-menu {
-  display: block;
-  margin-top: 0.125em;
-}
-
 .nav-section {
   display: flex;
   flex-direction: row;
