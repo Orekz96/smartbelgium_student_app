@@ -8,39 +8,52 @@ body {
   color: #1b1b1e;
 }
 
+/* NAVIGATION */
+
 .navbar {
   background-color: #3c096c;
 }
 
 .navbar-nav .nav-link {
+  color: #ffd6ff;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ff4ec0;
+  border-bottom: #ffd6ff solid 1px;
+  box-sizing: border-box;
+  transition: color 0.5s, border-bottom-color 0.5s;
+}
+
+.navbar-toggler {
+  border-color: #ff4ec0;
+  color: #ff4ec0;
+}
+
+.navbar-toggler:focus {
+  box-shadow: 0 0 0 0;
+}
+
+.navbar-brand {
+  color: #ffd6ff;
+  font-size: 24px;
+}
+
+.custom-btn {
+  background-color: #3c096c;
   color: #ffffff;
-}
-.nav-section {
-  display: flex;
-  flex-direction: row;
-  position: sticky;
-  justify-content: space-between;
+  border: #ffd6ff solid 1px;
+  border-radius: 8px;
 }
 
-.nav-link {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 16px;
+.custom-btn:hover {
+  background-color: #ffd6ff;
+  color: #3c096c;
+  border: #ffd6ff solid 1px;
+  transition: background-color 0.5s, color 0.5s, border-color 0.5s;
 }
 
-.nav-link > a {
-  text-decoration: none;
-  color: white;
-}
-
-.nav-link > a:hover {
-  color: #1b1b1e;
-}
-
-.nav-icon > h2 {
-  color: #1b1b1e;
-}
+/* HERO SECTION */
 
 .hero-section {
   /* border: 2px solid black; */
