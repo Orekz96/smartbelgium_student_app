@@ -4,14 +4,20 @@
 }
 
 body {
-  background-color: #fff8f2;
+  background-color: #ffb6ff;
   color: #1b1b1e;
 }
 
 .header {
-  background-color: #f26b38;
+  /* background-color: #f26b38; */
+  background-color: #e0aaff;
   color: #ffffff;
   padding: 16px 48px 16px 48px;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0.125em;
 }
 
 .nav-section {
@@ -46,6 +52,7 @@ body {
   /* margin: 28px 0 20px 0; */
   text-align: center;
   color: #1b1b1e;
+  background-image: linear-gradient(to right, #ffd6ff, #f3e8ff);
 }
 
 .hero-title {
@@ -73,6 +80,7 @@ body {
 
 article > h1 > span {
   display: block;
+  color: #3c096c;
 }
 
 footer {
